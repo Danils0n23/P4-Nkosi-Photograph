@@ -1,0 +1,108 @@
+/* Estilos gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos do cabeçalho */
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos da seção herói */
+  #hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #hero h1 {
+    font-size: 48px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  #hero p {
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0;
+    max-width: 600px;
+    line-height: 1.5;
+  }
+  
+  .cta {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .cta:hover {
+    background-color: #ff8500;
+  }
+  
+  /* Estilos da seção de recursos */
+  #features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f1f1f1;
+  }
+  
+  .feature {
+    text-align: center;
+    width: 300px;
+  }
+  
+  .feature i {
+    font-size: 48px;
+    color: #ff6600;
+    margin-bottom: 20px;
+  }
+  
+  .feature h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .feature p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px 0;
+  }
+  
